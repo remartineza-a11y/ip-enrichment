@@ -1,19 +1,20 @@
 ===================== docker ps -a =====================
-CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS                              PORTS     NAMES
-e0187086030e   ipenrichapp   "/bin/sh -c 'python3…"   2 seconds ago   Exited (0) Less than a second ago             samplerunning
+CONTAINER ID   IMAGE         COMMAND                  CREATED             STATUS                              PORTS                                         NAMES
+4864244ec8e1   ipenrichapp   "/bin/sh -c 'python3…"   2 seconds ago       Exited (0) Less than a second ago                                                 samplerunning
+de056ec0c082   myjenkins     "/usr/bin/tini -- /u…"   About an hour ago   Up About an hour                    0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   jenkins_server
 
 ================== docker logs samplerunning ==============
-[INFO] Consultando ipinfo.io para la IP 8.8.8.8 ...
+[INFO] Consultando ipinfo.io para la IP  ...
 =======================================================
-  INFORME DE ENRIQUECIMIENTO DE IP: 8.8.8.8
+  INFORME DE ENRIQUECIMIENTO DE IP: 
 =======================================================
-  IP            : 8.8.8.8
-  Hostname      : dns.google
-  Ciudad        : Mountain View
-  Region        : California
-  Pais          : US
-  Organizacion  : AS15169 Google LLC
-  Coordenadas   : 37.4056,-122.0775
-  Zona horaria  : America/Los_Angeles
+  IP            : 190.114.40.213
+  Hostname      : host190.114.40.213.dynamic.pacificored.cl
+  Ciudad        : Santiago
+  Region        : Santiago Metropolitan
+  Pais          : CL
+  Organizacion  : AS27901 Pacifico Cable SPA.
+  Coordenadas   : -33.4991,-70.6517
+  Zona horaria  : America/Santiago
 =======================================================
 [INFO] Consulta finalizada correctamente.
