@@ -1,0 +1,25 @@
+###########################################################################
+#  ATENCION: Este es un EJEMPLO del formato esperado.
+#  Este archivo se REGENERA automaticamente al ejecutar ./build.sh en tu
+#  maquina virtual (con tu token real). Sube el output.txt REAL, no este.
+###########################################################################
+
+===================== docker ps -a =====================
+CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS                     PORTS     NAMES
+a1b2c3d4e5f6   ipenrichapp    "/bin/sh -c 'python3…"   2 seconds ago   Exited (0) 1 second ago              samplerunning
+
+================== docker logs samplerunning ==============
+[INFO] Consultando ipinfo.io para la IP 8.8.8.8 ...
+=======================================================
+  INFORME DE ENRIQUECIMIENTO DE IP: 8.8.8.8
+=======================================================
+  IP            : 8.8.8.8
+  Hostname      : dns.google
+  Ciudad        : Mountain View
+  Region        : California
+  Pais          : US
+  Organizacion  : AS15169 Google LLC
+  Coordenadas   : 37.4056,-122.0775
+  Zona horaria  : America/Los_Angeles
+=======================================================
+[INFO] Consulta finalizada correctamente.
